@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background color for the whole page */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* White background color for navbar */
+    padding: 10px;
+    border-radius: 0 0 20px 20px; /* Border radius for bottom right corner */
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    color: #333; /* Dark text color */
+    background-color: #ddd; /* Light background color for buttons */
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slider {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 18px; /* Rounded corners */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+}
